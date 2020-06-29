@@ -1,0 +1,9 @@
+
+
+.header {
+    background-image: url(../media/backgrounds/header-background.jpg);
+    height:50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid green;
+}
