@@ -46,7 +46,7 @@ const Thumbnail = props =>{
         <div className = "thumbnailDiv">
             <h1>background</h1>
             
-            <div /*{ onMouseOver = {showActiveLayer} onMouseLeave = {showTitleLayer} }*/ onClick = {handleClick} className = "thumbnailToplayer">
+            <div /*  onMouseOver = {showActiveLayer} onMouseLeave = {showTitleLayer}  onClick = {handleClick}  */className = "thumbnailToplayer">
                 {layer }
                 
                

@@ -10,17 +10,19 @@ to{background-color: darkorchid;}
     animation-duration: 4s;
     animation-fill-mode: forwards;
 
+
 }
 
 .infoComponent:hover>#pInfo {
     animation-name: moveInfo;
+  
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
 
 @keyframes moveInfo{
-  0%{top: 50px; left:70px}
-  100%{top: 55px; left: 80px;}
+  0%{top: 5vh; left:10vw}
+  100%{top: 7vh; left: 12vw;}
   
 }
 
@@ -28,7 +30,7 @@ to{background-color: darkorchid;}
     position: relative;
     width: 30vw;
     top: 50px;
-    left: 70px;
+    left: 10vw;
    
 }
 

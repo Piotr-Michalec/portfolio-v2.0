@@ -6,7 +6,7 @@ const Info = props =>{
     const info = props.info;
     return(
      <div className = 'infoComponent'>
-         <div id = 'pInfo'>Info info: {info}</div>
+         <div id = 'pInfo'>{info}</div>
          </div>
 
     );
