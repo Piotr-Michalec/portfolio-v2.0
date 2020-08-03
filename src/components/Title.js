@@ -4,8 +4,8 @@ const Title = props =>{
 const title = props.title;
 
     return(
-        <div>
-            <h1>{title}</h1>
+        <div className ='titleDiv'>
+            <div id = 'titleInner'><h2>{title}</h2></div>
         </div>
     );
 };

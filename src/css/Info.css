@@ -1,36 +1,7 @@
-@keyframes changeColor {
-from{background-color: darkgreen;}
-to{background-color: darkorchid;}
-
-}
-
-.infoComponent{
-    background-color: darkgreen;
-    height: 100%;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
 
 
-}
 
-.infoComponent:hover>#pInfo {
-    animation-name: moveInfo;
-  
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-}
+ 
 
-@keyframes moveInfo{
-  0%{top: 5vh; left:10vw}
-  100%{top: 7vh; left: 12vw;}
-  
-}
 
-#pInfo{
-    position: relative;
-    width: 30vw;
-    top: 50px;
-    left: 10vw;
-   
-}
 

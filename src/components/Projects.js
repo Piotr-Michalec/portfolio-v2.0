@@ -1,8 +1,15 @@
 import React from 'react';
 import Thumbnail from '../components/Thumbnail';
 import '../css/Projects.css';
+import '../css/Info.css'
+//import image here
 
-const cos = 'example project title and background'
+import RecipeBackgr from '../media/backgrounds/binder.jpg';
+import SnakeBackgr from '../media/backgrounds/snake.jpg';
+import TetrisBackgr from '../media/backgrounds/tetris.jpg';
+import WeatherBackgr from '../media/backgrounds/weather.png';
+import PortfolioBackgr from '../media/backgrounds/portfolio.png';
+
 
 
 
@@ -17,8 +24,9 @@ const projectsJSON = [ //temporary
         <li>Uses MongoDB for data storage</li>
         <li>Created this to learn more about applying back end API’s to applications</li>
       </ul>,
-      github: 'github link',
-      projectURL: 'www.wp.pl'
+      github: 'https://github.com/Piotr-Michalec/recipe-binder-api',
+      projectURL: 'https://recipe-binder-client.herokuapp.com/',
+      background: RecipeBackgr
   },
   {
       title: 'Tetris Web App',
@@ -29,8 +37,9 @@ const projectsJSON = [ //temporary
       <li>Used bootstrap for front end development</li>
       <li>Created this as I was interested in creating a game and to learn ReactJS.</li>
   </ul>,
-      github: 'github link2',
-      projectURL: 'www.onet.pl'
+      github: 'https://github.com/Piotr-Michalec/tetris-react',
+      projectURL: 'https://notatetris.netlify.app/',
+      background: TetrisBackgr
   },
   {
       title: 'Weather Web App',
@@ -41,8 +50,9 @@ const projectsJSON = [ //temporary
           <li>Created with ReactJS and Javascript, HMTL and CSS</li>
           <li>Created this to build up my knowledge of API’s</li>
       </ul>,
-      github: 'github link',
-      projectURL: 'www.wp.pl'
+      github: 'https://github.com/Piotr-Michalec/World-Weather-Webapp',
+      projectURL: 'https://weatheronearth.netlify.app/',
+      background:WeatherBackgr
   },
   {
       title: 'Portfolio Web App',
@@ -53,8 +63,9 @@ const projectsJSON = [ //temporary
           <li>Successfully utilised libraries and frameworks such as React Router, React Hooks and Bootstrap</li>
           <li>Created this as a web app that users can go into and view my work</li>
       </ul>,
-      github: 'github link2',
-      projectURL: 'www.onet.pl'
+      github: 'https://github.com/Piotr-Michalec/MyPortfolio',
+      projectURL: 'www.onet.pl',
+      background: PortfolioBackgr
   },
   {
       title: 'Snake game',
@@ -64,8 +75,9 @@ const projectsJSON = [ //temporary
           <li>Build with raw JavaScript and CSS</li>
           <li>This was the first app I created and my first experience with Javascript</li>
       </ul>,
-      github: 'github link',
-      projectURL: 'www.wp.pl'
+      github: 'https://github.com/Piotr-Michalec/Snake-or-something-else',
+      projectURL: 'https://github.com/Piotr-Michalec/Snake-or-something-else',
+      background: SnakeBackgr
   },
   
 

@@ -5,8 +5,11 @@
 }
 
 #info {
+    position: relative;
+    top:0vh;
+    left:0vh;
     grid-area: info;
-
+    
 }
 
 #tech {
@@ -16,40 +19,107 @@
 #github {
     display:flex;
     grid-area: github;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
+    border: red 1px solid;
 }
 
 p{
     margin: 0;
 }
 
+#innerInfo{
+   
+    position: relative;
+    top:6vh;
+    left: 0vh;
+    height:5em;
+    
+    
+}
+
+
+
+/* .infoComponent{
+    position: relative;
+    width: 100%;
+    height:100%;
+    top: 0vh;
+    left: 0vw;
+} */
+.titleDiv{
+    position: relative;
+    top:0vh;
+    left:0vh;
+}
+
+#titleInner{
+    position: relative;
+    top:0vh;
+}
+
+
 .thumbnailDiv {
    position: relative;
     margin:5px;
     display: block;
-    background-color: chartreuse;
     height:50vh;
     width: 50vw;
+    background-repeat: no-repeat;
+    background-size: 110%;
 }
 
- .thumbnailToplayer ,.ThumbnailTitleDiv{
- background-color: chocolate;
- position: absolute;
- top:0px;
- width:100%;
- height: 100%;
- }
- .ThumbnailTitleDiv{
-     background-color: darkblue;
- }
+
+.thumbnailDiv:hover .gridContainer{
+    animation: backColorChange 1s forwards;
+}
+
+
+
+.thumbnailDiv:hover #innerInfo{
+    animation: moveInfo 1s forwards 0.3s;
+}
+
+ .thumbnailDiv:hover{
+  
+    animation: background-zoom 4s forwards;
+    
+  
+}
+
+.thumbnailDiv:hover #titleInner{
+ animation: moveTitle 0.7s forwards 0.8s;
+}
+
+@keyframes background-zoom{
+    0%{background-size: 110%;}
+    100%{background-size: 115%;}
+}  
+ 
+@keyframes moveInfo{
+    0%{top: 6vh; left:0vw}
+    100%{top: 10vh; left: 0vw;}
+}
+
+@keyframes moveTitle{
+    0%{top: 0vh}
+    100%{top:3vh}
+}
+
+@keyframes backColorChange{
+    0%{background-color: rgba(59, 49, 50,0.9);}
+    100%{background-color: rgba(59, 49, 50,0.5);}
+}
+
+
 
  .gridContainer{
 
      display: grid;
      align-items: stretch;
      height: 100%;
-     
+     background-color: rgba(59, 49, 50,0.9);
+     color: ghostwhite;
      grid-template-areas:
      "title title title title"
      "info info info info"
@@ -59,11 +129,15 @@ p{
      
 
 
-
+ 
 
 
  @media screen and (max-width: 570px){
      .thumbnailDiv{
          width: 100%;
      }
+ }
+
+ ul{
+    list-style-type: none;
  }

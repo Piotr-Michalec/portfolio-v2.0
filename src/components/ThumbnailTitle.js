@@ -1,4 +1,4 @@
-import React from 'react';
+/* import React from 'react';
 import '../css/Thumbnail.css';
 import Thumbnail from './Thumbnail';
 
@@ -10,4 +10,4 @@ const ThumbnailTitle = props =>{
     );
 };
 
-export default ThumbnailTitle;
+export default ThumbnailTitle; */
