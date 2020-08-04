@@ -1,9 +1,17 @@
 
 
 .header {
+    position: relative;
+    top:0px;
     background-image: url(../media/backgrounds/header-background.jpg);
     height:100vh;
     background-repeat: no-repeat;
     background-size: 100vw 70vh;
     border: 3px solid green;
+}
+
+.wrapper{
+    position: relative;
+    top:30%;
+    right:30vw;
 }

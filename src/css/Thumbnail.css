@@ -18,10 +18,21 @@
 
 #github {
     display:flex;
+    padding: 2px;
     grid-area: github;
     justify-content: center;
     align-items: center;
-    border: red 1px solid;
+    border-radius: 10px;
+    background-image: url(../media/Logos/GitHub_Logo.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+
+ 
+}
+
+#github:hover{
+    background-color:rgba(46, 34, 34, 0.9);
 }
 
 p{
@@ -61,12 +72,13 @@ p{
 
 .thumbnailDiv {
    position: relative;
-    margin:5px;
+    margin:0px;
     display: block;
     height:50vh;
     width: 50vw;
     background-repeat: no-repeat;
     background-size: 110%;
+    cursor: pointer;
 }
 
 
@@ -125,6 +137,7 @@ p{
      "info info info info"
      "tech tech tech github " ;  
      grid-template-rows: 1fr 4fr 1fr;
+     
  }
      
 

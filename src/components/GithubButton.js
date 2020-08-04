@@ -1,8 +1,11 @@
 import React from 'react';
-
+import GithubLogo from '../media/Logos/GitHub_Logo.png';
+const gitStyle = {
+    backgroundImage: `url(${GithubLogo})`
+  }
 const GithubButton = () =>{
     return(
-        <div>link to github</div>
+        <div style={gitStyle}>link to github</div>
     );
 };
 

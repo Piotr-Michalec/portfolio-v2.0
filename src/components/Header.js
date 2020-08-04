@@ -1,11 +1,15 @@
 import React from 'react';
+import Navbar from '../components/Navbar';
 import './../css/Header.css';
 
 const Header = () =>{
     return(
         <div className = "header">
-            <h1>header</h1>
-            <p>to jest header</p>
+            <Navbar/>
+            <div className = 'wrapper'>
+              <h1>header</h1>
+              <h3>to jest header</h3>
+            </div>
         </div>
     )
 }

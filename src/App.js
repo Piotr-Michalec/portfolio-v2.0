@@ -1,6 +1,8 @@
 import React from 'react';
 
+import Navbar from './components/Navbar';
 import Header from './components/Header';
+import AboutMe from './components/AboutMe';
 import Technologies from './components/Technologies';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
@@ -12,6 +14,7 @@ function App() {
     <div className="App">
     
     <Header/>
+    <AboutMe/>
     <Technologies/>
     <Projects/>
     <Footer/>

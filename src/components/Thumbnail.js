@@ -8,6 +8,7 @@ import Title from '../components/Title';
 import GithubButton from '../components/GithubButton';
 
 
+
 const Thumbnail = props =>{
 
   const project = props.project;
@@ -59,13 +60,15 @@ const Thumbnail = props =>{
         backgroundImage: `url(${background})`,
     }
 
+   
+
     return(
         <div className = "thumbnailDiv" style={style}>
           <div className ='gridContainer'>
           <div id='title' onClick = {handleClick}> <Title title = {title} /></div>
           <div id='info' onClick = {handleClick}><Info info = {info} /></div>
           <div id = 'tech' onClick = {handleClick}>tech</div>
-          <div id = 'github' onClick = {handleGithubClick}><GithubButton/></div>
+          <div id = 'github' onClick = {handleGithubClick}></div>
         </div>
                
             </div>
