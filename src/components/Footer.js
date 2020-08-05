@@ -4,7 +4,7 @@ import '../css/Footer.css';
 const Footer = () =>{
     return(
         <div className = "footer">
-            <h1>Footer</h1>
+           <div className = 'footerWrapper'><p>Contact</p><h3>pmichalec.dev@gmail.com</h3></div>
         </div>
     )
 }

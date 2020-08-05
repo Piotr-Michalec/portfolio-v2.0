@@ -13,5 +13,9 @@
 .wrapper{
     position: relative;
     top:30%;
-    right:30vw;
+    left:20vw;
+    width:50%;
+    text-align: left;
+    color: lavenderblush;
 }
+

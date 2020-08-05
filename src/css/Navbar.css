@@ -1,6 +1,24 @@
-.navbar>{
-   
+.navbar{
+position: absolute;
+top:3vh;
+right:5vw;
 height: 10vh;
+width: 15%;
+display: flex;
+justify-content: space-evenly;
+
+}
+.navbar>a{
+    
+  color:white;
+  margin-top: auto;
+  margin-bottom: auto;
 
 }
 
+
+@media screen and (max-width: 570px){
+   .navbar{
+       width: 35%;
+   }
+}
