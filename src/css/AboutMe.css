@@ -1,4 +1,24 @@
 .aboutMe{
     height:50vh;
     border:1px solid green;
+    top:50px;
+   
+    
 }
+
+.aboutMeCentralElement{
+    position: relative;
+    top:30%;
+    margin:auto;
+    background-color: lightslategray;
+   padding:5vw;
+   
+}
+
+.aboutMeText{
+    width:60%;
+   margin: 0 auto;
+}
+.aboutMeText p{
+    text-align: justify;
+} 

@@ -9,5 +9,12 @@
    
 }
 .footerWrapper{
-    display: inline;
+    
+    width:30%;
+    margin-top:40px;
+   float:right;
+ margin:auto;
+ padding:4vw;
+  
 }
+
