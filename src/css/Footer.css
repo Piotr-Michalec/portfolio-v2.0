@@ -11,10 +11,20 @@
 .footerWrapper{
     
     width:30%;
-    margin-top:40px;
+    margin-top:4vh;
    float:right;
  margin:auto;
  padding:4vw;
   
 }
 
+.h2footer{
+    width:100%;
+}
+ 
+@media only screen and (max-width: 440px){
+    .footerWrapper{
+        width: 100%;
+        margin-top: 10%;
+    }
+} 

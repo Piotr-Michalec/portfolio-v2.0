@@ -17,13 +17,80 @@ const Technologies = () =>{
     return(
         <div className = "technologies">
             <h1>Technologies</h1>
-            <FontAwesomeIcon icon={faReact} size='7x'/>
-            <FontAwesomeIcon icon={faGithubSquare} size='7x'/>
-            <FontAwesomeIcon icon={faJsSquare} size='7x'/>
-            <FontAwesomeIcon icon={faHtml5} size='7x'/>
-            <FontAwesomeIcon icon={faCss3Alt} size='7x'/>
-            <FontAwesomeIcon icon={faBootstrap} size='7x'/>
-            <FontAwesomeIcon icon={faNodeJs} size='7x'/>
+            <div className = 'techIcons'>
+                
+                <div className = 'iconWrapper'>
+                  <FontAwesomeIcon icon={faReact} size='7x'/>
+                  <div id='rightDiv'></div>
+                  <div id ='topDiv'></div>
+                  <div id ='bottomDiv'></div>
+                  <div id ='leftDiv'></div>
+                </div>
+
+                <div className = 'iconWrapper'>
+                <FontAwesomeIcon icon={faGithubSquare} size='7x'/>
+                  <div id='rightDiv'></div>
+                  <div id ='topDiv'></div>
+                  <div id ='bottomDiv'></div>
+                  <div id ='leftDiv'></div>
+                </div>
+
+                <div className = 'iconWrapper'>
+               <FontAwesomeIcon icon={faJsSquare} size='7x'/>
+                  <div id='rightDiv'></div>
+                  <div id ='topDiv'></div>
+                  <div id ='bottomDiv'></div>
+                  <div id ='leftDiv'></div>
+                </div>
+
+                <div className = 'iconWrapper'>
+                <FontAwesomeIcon icon={faBootstrap} size='7x'/>
+                  <div id='rightDiv'></div>
+                  <div id ='topDiv'></div>
+                  <div id ='bottomDiv'></div>
+                  <div id ='leftDiv'></div>
+                </div>
+
+                <div className = 'iconWrapper'>
+                <FontAwesomeIcon icon={faNodeJs} size='7x'/>
+                  <div id='rightDiv'></div>
+                  <div id ='topDiv'></div>
+                  <div id ='bottomDiv'></div>
+                  <div id ='leftDiv'></div>
+                </div>
+
+                <div className = 'iconWrapper'>
+                <FontAwesomeIcon icon={faJava} size='7x'/>
+                  <div id='rightDiv'></div>
+                  <div id ='topDiv'></div>
+                  <div id ='bottomDiv'></div>
+                  <div id ='leftDiv'></div>
+                </div>
+
+                <div className = 'iconWrapper'>
+                <FontAwesomeIcon icon={faHtml5} size='7x'/>
+                  <div id='rightDiv'></div>
+                  <div id ='topDiv'></div>
+                  <div id ='bottomDiv'></div>
+                  <div id ='leftDiv'></div>
+                </div>
+
+                <div className = 'iconWrapper'>
+                <FontAwesomeIcon icon={faCss3Alt} size='7x'/>
+                  <div id='rightDiv'></div>
+                  <div id ='topDiv'></div>
+                  <div id ='bottomDiv'></div>
+                  <div id ='leftDiv'></div>
+                </div>
+            
+            
+            
+           
+           
+           
+            
+            </div>
+            
         </div>
     )
 }
