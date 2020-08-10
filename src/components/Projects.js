@@ -64,7 +64,7 @@ const projectsJSON = [ //temporary
           <li>Created this as a web app that users can go into and view my work</li>
       </ul>,
       github: 'https://github.com/Piotr-Michalec/MyPortfolio',
-      projectURL: 'www.onet.pl',
+      projectURL: 'https://master.d22t5c0mb9351i.amplifyapp.com/',
       background: PortfolioBackgr
   },
   {
@@ -85,7 +85,7 @@ const projectsJSON = [ //temporary
     
 const Projects = () =>{
     return(
-        <div><h1>Some of my projects.</h1>
+        <div><h1 id='projectsH1' >Some of my projects.</h1>
         <div className = 'projects'>
             
         {projectsJSON.map((item,index)=>(<Thumbnail key ={item.title}
