@@ -2,8 +2,6 @@ import React from 'react';
 import '../css/Technologies.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import {faGithubSquare} from '@fortawesome/free-brands-svg-icons'
 import {faReact} from '@fortawesome/free-brands-svg-icons';
 import {faJsSquare} from '@fortawesome/free-brands-svg-icons';

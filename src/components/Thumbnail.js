@@ -1,13 +1,9 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 import '../css/Thumbnail.css';
 
-
 import Info from '../components/Info';
 import Title from '../components/Title';
-import GithubButton from '../components/GithubButton';
-
-
 
 const Thumbnail = props =>{
 
@@ -17,25 +13,6 @@ const Thumbnail = props =>{
   let githubUrl = project.github;
   let url = project.projectURL;
   const background = project.background;
-
-  // I can wrap these components in divs
-  /* let activeLayer = <ThumbnailActive title = {title} info = {info} github = {github} background = {background}/>;
-  let titleLayer = <ThumbnailTitle title = {title}/>; */
-
-  
-
-  /* const[layer, switchLayer] = useState(activeLayer)
-  
-    const showTitleLayer = () =>{
-       switchLayer(titleLayer)
-    }; */
-
-   /*  const showActiveLayer = () =>{
-       
-        switchLayer(activeLayer)
-    console.log('show active')
-    
-    }; */
 
     const handleClick = () =>{
         console.log('thumnail clicked')
