@@ -1,16 +1,17 @@
 .aboutMe{
-    height:50vh;
-    border:1px solid green;
+    height:60vh;
+ 
     top:50px;
-    overflow: scroll;
+
     
 }
 
 .aboutMeCentralElement{
     position: relative;
-    top:30%;
+    top:5%;
     margin:auto;
-    background-color: lightslategray;
+    background-color: rgba(46, 34, 34, 0.8);
+    color:ghostwhite;
    padding:5vw;
   
    
@@ -23,3 +24,9 @@
 .aboutMeText p{
     text-align: justify;
 } 
+
+@media only screen and (max-width: 440px){
+  .aboutMe{
+    overflow: scroll;
+  }
+}

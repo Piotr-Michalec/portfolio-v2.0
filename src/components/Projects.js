@@ -85,9 +85,12 @@ const projectsJSON = [ //temporary
     
 const Projects = () =>{
     return(
+        <div><h1>Some of my projects.</h1>
         <div className = 'projects'>
+            
         {projectsJSON.map((item,index)=>(<Thumbnail key ={item.title}
      project = {item}/> )) } 
+        </div>
         </div>
     )
 }

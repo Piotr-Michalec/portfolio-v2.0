@@ -16,7 +16,7 @@ import {faJava} from '@fortawesome/free-brands-svg-icons';
 const Technologies = () =>{
     return(
         <div className = "technologies">
-            <h1>Technologies</h1>
+            <h1>Technologies I've used</h1>
             <div className = 'techIcons'>
                 
                 <div className = 'iconWrapper'>

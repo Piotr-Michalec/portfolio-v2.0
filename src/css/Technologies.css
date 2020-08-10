@@ -1,14 +1,15 @@
 .technologies{
-   
     
-    background-color: burlywood;
-   
-    height:70vh;
+  height:60vh;
 
 }
 
+.technologies>h1{
+    margin:2vw;
+}
+
 .techIcons{
-    margin:10vw;
+    margin:3vw;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -25,6 +26,7 @@
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin:1vw;
     
 
     
@@ -93,7 +95,7 @@
 
 @media only screen and (max-width: 440px){
     .technologies{
-        height:180vh;
+        height:120vh;
     }
     .iconWrapper{
         margin-bottom: 2vw;
