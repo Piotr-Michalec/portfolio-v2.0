@@ -1,7 +1,5 @@
 #title{
-   
     grid-area: title;
-
 }
 
 #info {
@@ -9,7 +7,6 @@
     top:0vh;
     left:0vh;
     grid-area: info;
-    
 }
 
 #tech {
@@ -27,8 +24,6 @@
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: center;
-
- 
 }
 
 #github:hover{
@@ -119,8 +114,8 @@ p{
 }
 
 @keyframes backColorChange{
-    0%{background-color: rgba(59, 49, 50,0.9);}
-    100%{background-color: rgba(59, 49, 50,0.5);}
+    0%{background-color: rgba(39,44,51,0.9);}
+    100%{background-color: rgba(39,44,51,0.5);}
 }
 
 
@@ -130,7 +125,7 @@ p{
      display: grid;
      align-items: stretch;
      height: 100%;
-     background-color: rgba(59, 49, 50,0.9);
+     background-color:rgba(39,44,51, 0.9);
      color: ghostwhite;
      grid-template-areas:
      "title title title title"

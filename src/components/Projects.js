@@ -79,6 +79,19 @@ const projectsJSON = [ //temporary
       projectURL: 'https://github.com/Piotr-Michalec/Snake-or-something-else',
       background: SnakeBackgr
   },
+
+  {
+    title: 'Snake game',
+    info: 
+    <ul>
+        <li>Another variation of classic snake game</li>
+        <li>Build with raw JavaScript and CSS</li>
+        <li>This was the first app I created and my first experience with Javascript</li>
+    </ul>,
+    github: 'https://github.com/Piotr-Michalec/Snake-or-something-else',
+    projectURL: 'https://github.com/Piotr-Michalec/Snake-or-something-else',
+    background: SnakeBackgr
+},
   
 
 ]
