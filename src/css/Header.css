@@ -3,7 +3,7 @@
 .header {
     position: relative;
     top:0px;
-    background-image: url(../media/backgrounds/pexels-johannes-plenio-1423600.jpg);
+    background-image: url(../media/backgrounds/karim-ben-van-F2reN77g_gg-unsplash.jpg);
     height:100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,6 +18,6 @@
     left:20vw;
     width:50%;
     text-align: left;
-    color:39,44,51;
+    color:#1e262e;
 }
 

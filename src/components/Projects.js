@@ -9,6 +9,7 @@ import SnakeBackgr from '../media/backgrounds/snake.jpg';
 import TetrisBackgr from '../media/backgrounds/tetris.jpg';
 import WeatherBackgr from '../media/backgrounds/weather.png';
 import PortfolioBackgr from '../media/backgrounds/portfolio.png';
+import Portfolio2 from '../media/backgrounds/karim-ben-van-F2reN77g_gg-unsplash.jpg';
 
 
 
@@ -81,16 +82,16 @@ const projectsJSON = [ //temporary
   },
 
   {
-    title: 'Snake game',
+    title: 'This portfolio',
     info: 
     <ul>
-        <li>Another variation of classic snake game</li>
-        <li>Build with raw JavaScript and CSS</li>
-        <li>This was the first app I created and my first experience with Javascript</li>
+        
+        <li>Build with React and CSS</li>
+        <li>Easy to navigate</li>
     </ul>,
-    github: 'https://github.com/Piotr-Michalec/Snake-or-something-else',
+    github: 'https://github.com/Piotr-Michalec/portfolio-v2.0',
     projectURL: 'https://github.com/Piotr-Michalec/Snake-or-something-else',
-    background: SnakeBackgr
+    background: Portfolio2
 },
   
 
@@ -98,7 +99,7 @@ const projectsJSON = [ //temporary
     
 const Projects = () =>{
     return(
-        <div><h1 id='projectsH1' >Some of my projects.</h1>
+        <div><h1 id='projectsH1' >My work.</h1>
         <div className = 'projects'>
             
         {projectsJSON.map((item,index)=>(<Thumbnail key ={item.title}

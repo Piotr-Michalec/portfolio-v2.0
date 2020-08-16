@@ -95,15 +95,6 @@
 
 
 
-@media only screen and (max-width: 440px){
-    .technologies{
-        height:120vh;
-    }
-    .iconWrapper{
-        margin-bottom: 2vw;
-    }
-}
-
 @keyframes iconSpacing{
     0%{margin:0.5vh}
     100%{margin: 1.5vh;
@@ -131,4 +122,28 @@
 0%{width:100%}
 50%{width:0%;}
 100%{width:100%}
+}
+
+
+
+@media only screen and (max-width: 440px){
+    .technologies{
+        height:120vh;
+    }
+    .iconWrapper{
+        margin-bottom: 2vw;
+    }
+    .techH1{
+        width: 100%;
+        margin-top: 10vw;
+      margin-bottom: 10vw;
+    }
+    .iconWrapper{
+    
+        padding:none;
+        display:flex;
+        align-items: center;
+        margin:5vw;
+        
+    }
 }
