@@ -1,6 +1,11 @@
 .aboutMe{
     height:100vh;
-    top:50px;    
+    top:50px;
+  
+}
+
+.aboutMe p {
+  font-size: x-large;    
 }
 
 .aboutMe h1{
@@ -10,15 +15,17 @@
 .aboutMeWrapper{
   background-color: #B1CEE5;
   box-shadow: 0 0 10px 10px #B1CEE5;
+  height: 30vh;
   padding-left: 20vw;
   padding-right: 20vw;
   padding-top: 5vh;
   padding-bottom: 5vh;
+
 }
 
 .aboutMeOuter{
   position: relative;
-  top:40vh;
+  top:30vh;
 }
 
 @media only screen and (max-width: 440px){

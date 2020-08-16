@@ -14,9 +14,9 @@ import {faJava} from '@fortawesome/free-brands-svg-icons';
 const Technologies = () =>{
     return(
         <div className = "technologies">
-            
+        <h1 className ='techH1'>Technologies I've used</h1>
             <div className = 'techIcons'>
-            <h1 className ='techH1'>Technologies I've used</h1>
+            
                 <div className = 'iconWrapper'>
                   <FontAwesomeIcon icon={faReact} size='6x'/>
                   <div id='rightDiv'></div>
@@ -80,15 +80,7 @@ const Technologies = () =>{
                   <div id ='bottomDiv'></div>
                   <div id ='leftDiv'></div>
                 </div>
-            
-            
-            
-           
-           
-           
-            
-            </div>
-            
+            </div>  
         </div>
     )
 }

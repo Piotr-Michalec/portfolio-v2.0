@@ -12,16 +12,14 @@ import PortfolioBackgr from '../media/backgrounds/portfolio.png';
 import Portfolio2 from '../media/backgrounds/karim-ben-van-F2reN77g_gg-unsplash.jpg';
 
 
-
-
 const projectsJSON = [ //temporary
   {
       title: 'Recipe Binder app',
       info: 
       <ul>
         <li>Online app that allows users to add online recipes to a public profile for others to view</li>
-        <li>Created with Javascript and ReactJS</li>
-        <li>Uses Node.js and express.js</li>
+        <li>Frontend created with Javascript and ReactJS</li>
+        <li>Node.js and express.js used for backend</li>
         <li>Uses MongoDB for data storage</li>
         <li>Created this to learn more about applying back end API’s to applications</li>
       </ul>,
@@ -48,7 +46,7 @@ const projectsJSON = [ //temporary
        <ul>
           <li>Allows user to check the current weather in various locations by interacting with the map</li>
           <li>Uses Google Maps API and Dark Sky API</li>
-          <li>Created with ReactJS and Javascript, HMTL and CSS</li>
+          <li>Created with ReactJS, Javascript and CSS</li>
           <li>Created this to build up my knowledge of API’s</li>
       </ul>,
       github: 'https://github.com/Piotr-Michalec/World-Weather-Webapp',
@@ -88,6 +86,7 @@ const projectsJSON = [ //temporary
         
         <li>Build with React and CSS</li>
         <li>Easy to navigate</li>
+        <li>Fully responsive</li>
     </ul>,
     github: 'https://github.com/Piotr-Michalec/portfolio-v2.0',
     projectURL: 'https://github.com/Piotr-Michalec/Snake-or-something-else',
