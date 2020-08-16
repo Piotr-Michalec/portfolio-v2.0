@@ -46,6 +46,11 @@ p{
 }
 
 
+ul{
+    list-style-type: none;
+    padding:2vw;
+    
+ }
 
 /* .infoComponent{
     position: relative;
@@ -75,6 +80,7 @@ p{
     background-repeat: no-repeat;
     background-size: 110%;
     cursor: pointer;
+    background-position: center;
 }
 
 
@@ -100,7 +106,28 @@ p{
   
 }
 
-/* .thumbnailDiv:hover #titleInner{
+
+
+ .gridContainer{
+
+     display: grid;
+     align-items: stretch;
+     height: 100%;
+     background-color:rgba(60, 77, 93, 0.96);
+    
+     color: #ecf3f9;
+     /* #d9e7f2; */
+     grid-template-areas:
+     "title title title title"
+     "info info info info"
+     "tech tech tech github " ;  
+     grid-template-rows: 1fr 4fr 1fr;
+     
+ }
+     
+
+
+ /* .thumbnailDiv:hover #titleInner{
  animation: moveTitle 0.7s forwards 0.8s;
 } */
 
@@ -126,38 +153,22 @@ p{
 
 
 
- .gridContainer{
-
-     display: grid;
-     align-items: stretch;
-     height: 100%;
-     background-color:rgba(60, 77, 93, 0.96);
-    
-     color: #ecf3f9;
-     /* #d9e7f2; */
-     grid-template-areas:
-     "title title title title"
-     "info info info info"
-     "tech tech tech github " ;  
-     grid-template-rows: 1fr 4fr 1fr;
-     
- }
-     
-
-
- 
-
 
  @media screen and (max-width: 570px){
      .thumbnailDiv{
          width: 100%;
      }
+     
+ .gridContainer{
+    background-color:rgba(60, 77, 93, 0.8);
+}
+
+
+.thumbnailDiv{
+    background-size: cover;
+    background-position: center;
+}
  }
 
- ul{
-    list-style-type: none;
-    padding:2vw;
-    
- }
 
  

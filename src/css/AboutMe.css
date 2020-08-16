@@ -23,7 +23,7 @@
 
 @media only screen and (max-width: 440px){
   .aboutMe{
-    overflow: scroll;
+    overflow: hidden;
   }
   .aboutMeOuter{
     top:5vh;
@@ -33,5 +33,10 @@
     padding-top: 20vh;
     padding-left: 3vw;
     padding-right: 3vw;
+  }
+  .aboutMe h1{
+    padding:4vh;
+    margin-top:2vh;
+    margin-bottom: 2vh;
   }
 }
