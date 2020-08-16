@@ -9,6 +9,7 @@ import SnakeBackgr from '../media/backgrounds/snake.jpg';
 import TetrisBackgr from '../media/backgrounds/tetris.jpg';
 import WeatherBackgr from '../media/backgrounds/weather.png';
 import PortfolioBackgr from '../media/backgrounds/portfolio.png';
+import Portfolio2 from '../media/backgrounds/karim-ben-van-F2reN77g_gg-unsplash.jpg';
 
 
 
@@ -79,13 +80,26 @@ const projectsJSON = [ //temporary
       projectURL: 'https://github.com/Piotr-Michalec/Snake-or-something-else',
       background: SnakeBackgr
   },
+
+  {
+    title: 'This portfolio',
+    info: 
+    <ul>
+        
+        <li>Build with React and CSS</li>
+        <li>Easy to navigate</li>
+    </ul>,
+    github: 'https://github.com/Piotr-Michalec/portfolio-v2.0',
+    projectURL: 'https://github.com/Piotr-Michalec/Snake-or-something-else',
+    background: Portfolio2
+},
   
 
 ]
     
 const Projects = () =>{
     return(
-        <div><h1 id='projectsH1' >Some of my projects.</h1>
+        <div><h1 id='projectsH1' >My work.</h1>
         <div className = 'projects'>
             
         {projectsJSON.map((item,index)=>(<Thumbnail key ={item.title}

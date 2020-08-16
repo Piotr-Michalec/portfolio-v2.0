@@ -45,7 +45,7 @@ const Thumbnail = props =>{
           <div id='title' onClick = {handleClick}> <Title title = {title} /></div>
           <div id='info' onClick = {handleClick}><Info info = {info} /></div>
           <div id = 'tech' onClick = {handleClick}></div>
-          <div id = 'github' onClick = {handleGithubClick}></div>
+          <div id = 'github' onClick = {handleGithubClick}>Go to GitHub</div>
         </div>
                
             </div>

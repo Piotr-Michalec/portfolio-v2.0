@@ -3,10 +3,12 @@
 .header {
     position: relative;
     top:0px;
-    background-image: url(../media/backgrounds/header-background.jpg);
+    background-image: url(../media/backgrounds/karim-ben-van-F2reN77g_gg-unsplash.jpg);
     height:100vh;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 100vw 70vh;
+    background-size: cover;
+   
   
 }
 
@@ -16,6 +18,6 @@
     left:20vw;
     width:50%;
     text-align: left;
-    color: lavenderblush;
+    color:#1e262e;
 }
 

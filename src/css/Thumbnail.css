@@ -1,7 +1,5 @@
 #title{
-   
     grid-area: title;
-
 }
 
 #info {
@@ -9,7 +7,6 @@
     top:0vh;
     left:0vh;
     grid-area: info;
-    
 }
 
 #tech {
@@ -23,16 +20,15 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    background-image: url(../media/Logos/GitHub_Logo.png);
+  /*   background-image: url(../media/Logos/GitHub_Logo.png); */
+    color:#ecf3f9;
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: center;
-
- 
 }
 
 #github:hover{
-    background-color:rgba(46, 34, 34, 0.9);
+    background-color:rgba(60, 77, 93,0.9);
 }
 
 p{
@@ -86,11 +82,16 @@ p{
     animation: backColorChange 1s forwards;
 }
 
-
-
-.thumbnailDiv:hover #innerInfo{
-    animation: moveInfo 1s forwards 0.3s;
+.thumbnailDiv:hover ul{
+    background-color:rgba(60, 77, 93,0.9);
+    box-shadow: 0 0 5px 5px rgba(60, 77, 93,0.9);
 }
+
+
+
+/* .thumbnailDiv:hover #innerInfo{
+    animation: moveInfo 1s forwards 0.3s;
+} */
 
  .thumbnailDiv:hover{
   
@@ -119,8 +120,8 @@ p{
 }
 
 @keyframes backColorChange{
-    0%{background-color: rgba(59, 49, 50,0.9);}
-    100%{background-color: rgba(59, 49, 50,0.5);}
+    0%{background-color: rgba(60, 77, 93,0.9);}
+    100%{background-color: rgba(60, 77, 93,0.5);}
 }
 
 
@@ -130,8 +131,10 @@ p{
      display: grid;
      align-items: stretch;
      height: 100%;
-     background-color: rgba(59, 49, 50,0.9);
-     color: ghostwhite;
+     background-color:rgba(60, 77, 93, 0.96);
+    
+     color: #ecf3f9;
+     /* #d9e7f2; */
      grid-template-areas:
      "title title title title"
      "info info info info"
@@ -153,4 +156,8 @@ p{
 
  ul{
     list-style-type: none;
+    padding:2vw;
+    
  }
+
+ 

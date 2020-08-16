@@ -1,11 +1,11 @@
 .footer{
     border: 1px solid green;
-    background-image: url(../media/backgrounds/header-background.jpg);
+    background: rgb(126,191,210);
+    background: linear-gradient(103deg, rgba(126,191,210,1) 14%, rgba(177,206,229,1) 33%, rgba(116,165,177,1) 64%, rgba(92,116,140,1) 81%);
     height:20vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 1px solid green;
     text-align: right;
+    color: 
+    #d9e7f2;
    
 }
 .footerWrapper{

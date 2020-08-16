@@ -14,11 +14,11 @@ import {faJava} from '@fortawesome/free-brands-svg-icons';
 const Technologies = () =>{
     return(
         <div className = "technologies">
-            <h1>Technologies I've used</h1>
+            
             <div className = 'techIcons'>
-                
+            <h1 className ='techH1'>Technologies I've used</h1>
                 <div className = 'iconWrapper'>
-                  <FontAwesomeIcon icon={faReact} size='7x'/>
+                  <FontAwesomeIcon icon={faReact} size='6x'/>
                   <div id='rightDiv'></div>
                   <div id ='topDiv'></div>
                   <div id ='bottomDiv'></div>
@@ -26,7 +26,7 @@ const Technologies = () =>{
                 </div>
 
                 <div className = 'iconWrapper'>
-                <FontAwesomeIcon icon={faGithubSquare} size='7x'/>
+                <FontAwesomeIcon icon={faGithubSquare} size='6x'/>
                   <div id='rightDiv'></div>
                   <div id ='topDiv'></div>
                   <div id ='bottomDiv'></div>
@@ -34,7 +34,7 @@ const Technologies = () =>{
                 </div>
 
                 <div className = 'iconWrapper'>
-               <FontAwesomeIcon icon={faJsSquare} size='7x'/>
+               <FontAwesomeIcon icon={faJsSquare} size='6x'/>
                   <div id='rightDiv'></div>
                   <div id ='topDiv'></div>
                   <div id ='bottomDiv'></div>
@@ -42,7 +42,7 @@ const Technologies = () =>{
                 </div>
 
                 <div className = 'iconWrapper'>
-                <FontAwesomeIcon icon={faBootstrap} size='7x'/>
+                <FontAwesomeIcon icon={faBootstrap} size='6x'/>
                   <div id='rightDiv'></div>
                   <div id ='topDiv'></div>
                   <div id ='bottomDiv'></div>
@@ -50,7 +50,7 @@ const Technologies = () =>{
                 </div>
 
                 <div className = 'iconWrapper'>
-                <FontAwesomeIcon icon={faNodeJs} size='7x'/>
+                <FontAwesomeIcon icon={faNodeJs} size='6x'/>
                   <div id='rightDiv'></div>
                   <div id ='topDiv'></div>
                   <div id ='bottomDiv'></div>
@@ -58,7 +58,7 @@ const Technologies = () =>{
                 </div>
 
                 <div className = 'iconWrapper'>
-                <FontAwesomeIcon icon={faJava} size='7x'/>
+                <FontAwesomeIcon icon={faJava} size='6x'/>
                   <div id='rightDiv'></div>
                   <div id ='topDiv'></div>
                   <div id ='bottomDiv'></div>
@@ -66,7 +66,7 @@ const Technologies = () =>{
                 </div>
 
                 <div className = 'iconWrapper'>
-                <FontAwesomeIcon icon={faHtml5} size='7x'/>
+                <FontAwesomeIcon icon={faHtml5} size='6x'/>
                   <div id='rightDiv'></div>
                   <div id ='topDiv'></div>
                   <div id ='bottomDiv'></div>
@@ -74,7 +74,7 @@ const Technologies = () =>{
                 </div>
 
                 <div className = 'iconWrapper'>
-                <FontAwesomeIcon icon={faCss3Alt} size='7x'/>
+                <FontAwesomeIcon icon={faCss3Alt} size='6x'/>
                   <div id='rightDiv'></div>
                   <div id ='topDiv'></div>
                   <div id ='bottomDiv'></div>
