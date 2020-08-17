@@ -6,6 +6,7 @@
   vertical-align: baseline;
   background: transparent;
   box-sizing: border-box;
+
 }
 
 body {
@@ -20,4 +21,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header, h1, h3{
+  text-shadow: 1px 1px  #50677c;
+  color:#32414e;
 }

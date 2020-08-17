@@ -1,16 +1,15 @@
 .navbar{
-position: absolute;
-top:3vh;
-right:5vw;
-height: 10vh;
-width: 15%;
-display: flex;
-justify-content: space-evenly;
-
+  position: absolute;
+  top:3vh;
+  right:5vw;
+  height: 10vh;
+  width: 15%;
+  display: flex;
+  justify-content: space-evenly;
 }
+
 .navbar>a{
-    
-  color:#1e262e;
+  color:#32414e; 
   margin-top: auto;
   margin-bottom: auto;
 

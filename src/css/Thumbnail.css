@@ -76,11 +76,11 @@ ul{
 .thumbnailDiv:hover .gridContainer{
     animation: backColorChange 1s forwards;
 }
-
-.thumbnailDiv:hover ul{
+ 
+.thumbnailDiv:hover li{
     background-color:rgba(60, 77, 93,0.9);
-    box-shadow: 0 0 5px 40px rgba(60, 77, 93,0.9);
-}
+    box-shadow: 0vw 0px 1vh 1vh rgba(60, 77, 93,0.9);
+} 
 
 /* .thumbnailDiv:hover #innerInfo{
     animation: moveInfo 1s forwards 0.3s;
