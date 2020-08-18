@@ -89,7 +89,7 @@ const projectsJSON = [ //temporary
         <li>Fully responsive</li>
     </ul>,
     github: 'https://github.com/Piotr-Michalec/portfolio-v2.0',
-    projectURL: 'https://github.com/Piotr-Michalec/Snake-or-something-else',
+    projectURL: 'piotrmichalec.co.uk',
     background: Portfolio2
 },
   
