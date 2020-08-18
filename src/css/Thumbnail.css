@@ -133,6 +133,7 @@ ul{
          background-size: cover;
          background-position: center;
          border-bottom: 1px solid whitesmoke;
+         animation:none;
      }
      
  .gridContainer{

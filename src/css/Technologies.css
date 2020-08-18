@@ -143,8 +143,9 @@
     .technologies {
       height: 120vh;
     }
+  
     .iconWrapper {
-      margin-bottom: 2vw;
+      margin-bottom: 0vw;
     }
     .techH1 {
       width: 100%;
@@ -159,6 +160,7 @@
     }
     .techIcons{
       height: 100vh;
+      padding:2vh;
     }
   }
   
