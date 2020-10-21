@@ -10,9 +10,24 @@ import TetrisBackgr from '../media/backgrounds/tetris.jpg';
 import WeatherBackgr from '../media/backgrounds/weather.png';
 import PortfolioBackgr from '../media/backgrounds/portfolio.png';
 import Portfolio2 from '../media/backgrounds/karim-ben-van-F2reN77g_gg-unsplash.jpg';
+import MarsBackgr from '../media/backgrounds/mars2.png';
 
 
 const projectsJSON = [ //temporary
+
+    {
+        title: 'Mars Rover Gallery',
+        info: 
+        <ul>
+            <li>See photos of Mars taken by three martian rovers</li>
+            <li>Build with Node.js and Express</li>
+            <li>Uses Nasa public API</li>
+           
+        </ul>,
+        github: 'https://github.com/Piotr-Michalec/space-stuff',
+        projectURL: 'https://mars-rover-gallery.herokuapp.com/',
+        background: MarsBackgr
+    },
   {
       title: 'Recipe Binder app',
       info: 
@@ -92,6 +107,8 @@ const projectsJSON = [ //temporary
     projectURL: 'piotrmichalec.co.uk',
     background: Portfolio2
 },
+
+
   
 
 ]
